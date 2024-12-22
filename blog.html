@@ -1,0 +1,506 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HARGUN[code crew] </title>
+
+    <!-- font awsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="/blog.css">
+
+</head>
+<body>
+
+<!-- header section start page -->
+<section id="header" class="header">
+
+<nav class="navbar">
+    <a href="#home">home</a>
+    <a href="#about">about</a>
+    <a href="/index.html">shop</a>
+    <a href="#gallery">gallery</a>
+    <a href="#message">message</a>
+    <a href="#blogs">blogs</a>
+</nav>
+
+<div class="icons">
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <a href="#" class="fas fa-heart"></a>
+    <a href="bag.html" class="fas fa-shopping-cart"></a>
+    <button id="theme-toggle">Toggle Dark/Light Mode</button>
+
+</div>
+</section>
+
+<!-- header section ends -->
+
+<!-- home section starts -->
+
+<section class="home" id="home">
+
+    <div class="slide active" style="background:url(imges/home-bg-1.jpg) no-repeat; background-size:cover;
+    background-position: center;">
+    <div class="content">
+        <span>forever <br> beautiful</span>
+        <h3>"Jewels for Your Skin, Shine for Your Soul – Discover Your Best Self. </h3>
+         <a href="#" class="btn">read more</a>
+    </div>
+    </div>
+
+    <div class="slide" style="background:url(imges/home-bg-2.jpg) no-repeat; background-size:cover;
+    background-position: center;">
+    <div class="content">
+        <span>forever <br> beautiful</span>
+        <h3>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+            sed do eiusmod tempor farhan ut labore et dolore magna aliqua.<br>
+           Lorem, ipsum dolor </h3>
+         <a href="#" class="btn">read more</a>
+    </div>
+    </div>
+
+    <div class="slide" style="background:url(imges/home-bg-3.jpg) no-repeat; background-size:cover;
+    background-position: center;">
+    <div class="content">
+        <span>forever <br> beautiful</span>
+        <h3>"Shine Bright, Spend Light – Grab 50% Off Now! </h3>
+         <a href="#" class="btn">read more</a>
+    </div>
+    </div>
+
+    <div id="next-slide" onclick="next()" class="fas fa-angle-right"></div>
+    <div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- category section starts -->
+
+<section class="category">
+    <div class="box-container">
+
+        <a href="#" class="box">
+            <img decoding="async" src="imges/category-1.png">
+            <h3>skincare</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img decoding="async" src="imges/category-2.png">
+            <h3>lips</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img decoding="async" src="imges/category-3.png">
+            <h3>hair</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img decoding="async" src="imges/category-4.png">
+            <h3>eye</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img decoding="async" src="imges/category-5.png">
+            <h3>makeup</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img decoding="async" src="imges/category-6.png">
+            <h3>fragrance</h3>
+        </a>
+
+    </div>
+</section>
+<!-- category section ends -->
+
+<!-- about section starts -->
+
+<section class="about" id="about">
+    <div class="img">
+        <img decoding="async" src="imges/" alt="">
+    </div>
+    <div class="content">
+        <div class="box">
+            <h3>About <span>Us...</span></h3>
+            <p>Welcome to Jewel and Shine, where beauty meets brilliance! We believe that every individual deserves to feel confident, radiant, and unapologetically themselves. That’s why we’re dedicated to offering a curated collection of premium beauty products designed to enhance your natural glow and let your inner sparkle shine through. </p>
+            <a href="#" class="btn">read more</a>
+        </div>
+        <div class="icons-container">
+            <div class="icons">
+                <i class="fas fa-address-card"></i>
+                <p>address card</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-award"></i>
+                <p>award cards</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-gift"></i>
+                <p>gift cards</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- about section ends -->
+
+<!-- shop section starts --
+
+<section class="shop" id="shop">
+    <h1 class="heading">our <span>shop</span></h1>
+    <div class="box-container">
+
+        <div class="box">
+            <div class="img">
+                <img decoding="async" src="imges/product-1.jpg">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>airbrush matte</h3>
+                <div class="price">$40-<span>$200.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="img">
+                <img decoding="async" src="imges/product-2.jpg">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>lactic acid treatment</h3>
+                <div class="price">$40-<span>$200.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="img">
+                <img decoding="async" src="imges/product-3.jpg">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>midnight must</h3>
+                <div class="price">$40-<span>$200.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="img">
+                <img decoding="async" src="imges/product-4.jpg">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>face & body foundation</h3>
+                <div class="price">$40-<span>$200.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="img">
+                <img decoding="async" src="imges/product-5.jpg">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>eyeliner pack</h3>
+                <div class="price">$40-<span>$200.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="img">
+                <img decoding="async" src="imges/product-6.jpg">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>moisture balam</h3>
+                <div class="price">$40-<span>$200.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+shop section ends -->
+
+<!-- banner section starts -->
+
+<section class="banner">
+    <div class="content">
+        <span>special <span>offer</span></span>
+        <h3>upto 50% off</h3>
+        <p>Shine Bright, Spend Light – Grab 50% Off Now!</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+</section>
+
+<!-- banner section ends -->
+
+<!-- gallery section starts -->
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">our <span>gallery</span></h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img decoding="async" src="imges/gallery-img-1.jpeg">
+            <div class="content">
+                <h3>face</h3>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="imges/gallery-img-2.jpeg">
+            <div class="content">
+                <h3>eyes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="imges/gallery-img-3.jpeg">
+            <div class="content">
+                <h3>lips</h3>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="imges/gallery-img-4.jpeg">
+            <div class="content">
+                <h3>hairs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="imges/gallery-img-5.jpeg">
+            <div class="content">
+                <h3>make up</h3>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="imges/gallery-img-6.jpeg">
+            <div class="content">
+                <h3>skin care</h3>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- gallery section ends -->
+
+<!-- message section starts -->
+<section class="message" id="message">
+    <form action="">
+        <h3>get in <span>touch</span></h3>
+        <input type="text" placeholder="full name" class="box">
+        <input type="email" placeholder="email" class="box">
+        <input type="number" placeholder="phone" class="box">
+        <textarea placeholder="message" class="box" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn">
+    </form>
+</section>
+
+<!-- message section ends -->
+
+<!-- blog section starts -->
+
+<section class="blogs" id="blogs">
+    <h1 class="heading">our daily <span>blogs</span></h1>
+    <div class="box-container">
+
+        <div class="box">
+            <div class="img">
+                <img decoding="async" src="imges/blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="date">
+                <h3>12</h3>
+                <span>jan</span>
+            </div>
+            <a href="#" class="user"><i class="fas fa-user"></i> by admin</a>
+            <a href="#" class="title"> blog title goes here...</a>
+            <p>Nature’s Glow, Your Radiance – Ayurvedic Beauty by Jewel and Shine</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="img">
+            <img decoding="async" src="imges/blog-2.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="date">
+            <h3>19</h3>
+            <span>feb</span>
+        </div>
+        <a href="#" class="user"><i class="fas fa-user"></i> by admin</a>
+        <a href="#" class="title"> blog title goes here...</a>
+        <p>Soft on Lips, Safe by Nature – Jewel and Shine Lipsticks</p>
+        <a href="#" class="btn">read more</a>
+    </div>
+</div>
+
+<div class="box">
+    <div class="img">
+        <img decoding="async" src="imges/blog-3.jpg" alt="">
+    </div>
+    <div class="content">
+        <div class="date">
+        <h3>02</h3>
+        <span>Aug</span>
+    </div>
+    <a href="#" class="user"><i class="fas fa-user"></i> by admin</a>
+    <a href="#" class="title"> blog title goes here...</a>
+    <p>Purely Organic, Naturally Beautiful – Shampoos by Jewel and Shine</p>
+    <a href="#" class="btn">read more</a>
+</div>
+</div>
+
+
+    </div>
+</section>
+
+
+<!-- blogs section ends -->
+
+<!-- services section starts -->
+
+<section class="services">
+
+    <div class="box">
+        <img decoding="async" src="imges/icon-1.png" alt="">
+        <h3>free delivery</h3>
+        <p>Enjoy Free Delivery on Every Order – Shop Now!</p>
+    </div>
+
+    <div class="box">
+        <img decoding="async" src="imges/icon-2.png" alt="">
+        <h3>secure payments</h3>
+        <p>Shop Confidently with 100% Secure Payments!</p>
+    </div>
+
+    <div class="box">
+        <img decoding="async" src="imges/icon-3.png" alt="">
+        <h3>24/7 support</h3>
+        <p>Here for You 24/7 – Support Anytime, Anywhere!</p>
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- footer section starts -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a class="link" href="#home"> <i class="fas fa-angle-right"></i> home</a>
+            <a class="link" href="#about"> <i class="fas fa-angle-right"></i> about</a>
+            <a class="link" href="#shop"> <i class="fas fa-angle-right"></i> shop</a>
+            <a class="link" href="#gallery"> <i class="fas fa-angle-right"></i> gallery</a>
+            <a class="link" href="#message"> <i class="fas fa-angle-right"></i> message</a>
+            <a class="link" href="#blogs"> <i class="fas fa-angle-right"></i> blogs</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i> my favorite </a>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i> my order </a>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i> my wishlist </a>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i> private policy </a>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i> terms of use </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a class="link" href="#"> <i class="fas fa-phone"></i> +91 8072807129</a>
+            <a class="link" href="#"> <i class="fas fa-phone"></i> +91 7496805290</a>
+            <a class="link" href="#"> <i class="fas fa-envelope"></i> hargunmadan9034@gmail.com</a>
+            <a class="link" href="#"> <i class="fas fa-map"></i> mumbai, india - 401203 </a>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input type="email" name="" placeholder="enter your email" id="" class="email">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span>HARGUN ( code crew)</span> || all rights reserved! </div>
+
+</section>
+
+
+
+<!-- custom js file link -->
+<script src="/blog.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
